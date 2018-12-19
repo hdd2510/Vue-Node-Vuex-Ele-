@@ -2,28 +2,23 @@
 
 ## Project setup
 ```
-npm install
+vue依赖下载
+  npm install
+node依赖下载
+  cd server
+  npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+vue启动
+  npm run serve
+node启动
+  npm start
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+vue代码打包（记得跳过server）
+  npm run build
+```.
